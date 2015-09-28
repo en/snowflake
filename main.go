@@ -3,10 +3,10 @@ package main
 import (
 	log "github.com/gonet2/libs/nsq-logger"
 	_ "github.com/gonet2/libs/statsd-pprof"
+	pb "github.com/gonet2/snowflake/proto"
 	"google.golang.org/grpc"
 	"net"
 	"os"
-	pb "proto"
 )
 
 const (

@@ -1,9 +1,9 @@
 package main
 
 import (
+	pb "github.com/gonet2/snowflake/proto"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
-	pb "proto"
 	"testing"
 )
 
